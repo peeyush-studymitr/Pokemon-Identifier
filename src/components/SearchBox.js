@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 const SearchBox = ({ onSearch }) => {
   const [pokemonName, setPokemonName] = useState('');
+  
 
   // Event handler for input changes
   const handleInputChange = (e) => {
